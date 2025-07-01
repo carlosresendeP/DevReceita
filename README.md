@@ -93,7 +93,7 @@ npm run dev
 ```
 Acesse no navegador:
 ```
-http://localhost:5173
+http://localhost:3001
 ```
 
 ---
@@ -123,7 +123,7 @@ Durante o desenvolvimento do **DevReceita**, foram aplicadas práticas modernas 
 
 **Carlos Alexandre**  
 📧 seu-email@gmail.com  
-🔗 [linkedin.com/in/seuusuario](https://linkedin.com/in/seuusuario)
+https://github.com/carlosresendeP
 
 ---
 
