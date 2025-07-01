@@ -55,14 +55,14 @@ export const ChatReceitas = () => {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-purple-300 via-gray-50 to-emerald-50 p-4">
+        <div className="min-h-screen bg-gradient-to-br from-amber-200 to-black/80 p-4">
             <div className=" container mx-auto max-w-4xl">
                 <header className="text-center mb-8">
-                    <h1 className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-emerald-600 text-transparent bg-clip-text mb-2">🥘 DevChef</h1>
-                    <p className="text-gray-600 text-lg">Seu assistente pessoal para receitas deliciosas</p>
+                    <h1 className="text-5xl font-bold bg-gradient-to-bl from-orange-400 to-amber-950 text-transparent bg-clip-text mb-2">🥘 DevChef</h1>
+                    <p className="text-gray-200 text-lg">Seu assistente pessoal para receitas deliciosas</p>
                 </header>
 
-                <div className="bg-white/70 backdrop-blur-sm rounded-l-2xl overflow-hidden shadow-xl h-[600px] border border-gray-200 flex flex-col">
+                <div className="bg-white/50 backdrop-blur-sm rounded-l-2xl overflow-hidden shadow-xl h-[600px] border border-gray-200 flex flex-col">
                     <ListMesagens messages={messages} loading={loading} ></ListMesagens>
 
                     <ChatBox onSendMessage={onSendMessage} disabled={loading} ></ChatBox>

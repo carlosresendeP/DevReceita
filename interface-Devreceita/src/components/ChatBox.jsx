@@ -28,8 +28,10 @@ const ChatBox = ({onSendMessage, disabled })=>{
             <button  
             type="submit"
             disabled={disabled}
-            className="px-8 py-3 bg-gradient-to-r from-purple-500 to-emerald-500 
-            hover:from-purple-600 hover:to-emerald-700
+            className="px-8 py-3 text-sm font-semibold  bg-gradient-to-r from-amber-400 to-amber-600 
+            hover:from-amber-600 hover:to-amber-800
+            transition-colors duration-300
+            focus:ring-2 focus:ring-amber-500 focus:ring-offset-2
             text-white rounded-full
             disabled:from-gray-400 disabled:to-gray-300 disabled:cursor-not-allowed">Enviar</button>
         </form>

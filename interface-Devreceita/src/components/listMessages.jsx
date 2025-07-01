@@ -31,9 +31,9 @@ const ListMesagens = ({messages, loading})=>{
                     <div className="flex justify-start">
                         <div className="rounded-2xl rounded-bl-none p-4 shadow-md bg-gray-50 border-gray-300">
                             <div className="flex space-x-2">
-                                <div className="w-3 h-3 bg-purple-500 rounded-full animate-pulse"></div>
-                                <div className="w-3 h-3 bg-emerald-500 rounded-full animate-pulse delay-100"></div>
-                                <div className="w-3 h-3 bg-purple-300 rounded-full animate-pulse delay-200"></div>
+                                <div className="w-3 h-3 bg-amber-500 rounded-full animate-pulse"></div>
+                                <div className="w-3 h-3 bg-amber-900 rounded-full animate-pulse delay-100"></div>
+                                <div className="w-3 h-3 bg-emerald-800 rounded-full animate-pulse delay-200"></div>
                             </div>
                         </div>
                     </div>
