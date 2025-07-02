@@ -13,7 +13,8 @@ O **DevReceita** é uma aplicação web que permite ao usuário gerar receitas c
 
 ## 📸 Demonstração
 
-> Adicione aqui imagens ou GIFs do seu projeto em funcionamento.
+![Captura de tela 2025-07-01 194619](https://github.com/user-attachments/assets/61501458-4f13-4b40-b082-41317183aa49)
+
 
 ---
 
