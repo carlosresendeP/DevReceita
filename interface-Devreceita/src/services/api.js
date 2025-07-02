@@ -6,7 +6,7 @@ const API_URL = import.meta.env.VITE_API_URL ;
 
 export const api = async (ask) => {
     try {
-        const response = await axios.post(`${API_URL}receitas/perguntar`, {
+        const response = await axios.post(`${API_URL}/receitas/perguntar`, {
             ask
         })
         return response.data.response;
