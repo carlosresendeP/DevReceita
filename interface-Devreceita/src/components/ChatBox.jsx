@@ -9,6 +9,11 @@ const ChatBox = ({onSendMessage, disabled })=>{
     const handleSubmit = (event)=>{
         event.preventDefault(); //previne o comportamento padrao do form de recarregar a pagina
 
+        if (!message.trim()) return; //verifica se o input esta vazio ou com apenas espacos em branco
+        //se estiver vazio nao envia a mensagem trim() remove os espacos em branco do inicio e do fim da string
+        if (disabled) return; //se o bot estiver processando uma mensagem, nao envia outra
+        //se nao estiver vazio, envia a mensagem
+
         onSendMessage(message); //chama a funcao que vem do componente pai e passa o valor do input
         setMessage(""); //limpa o input apos enviar a mensagem
     }
@@ -29,7 +34,7 @@ const ChatBox = ({onSendMessage, disabled })=>{
             type="submit"
             disabled={disabled}
             className="px-8 py-3 text-sm font-semibold  bg-gradient-to-r from-amber-400 to-amber-600 
-            hover:from-amber-600 hover:to-amber-800
+            hover:from-lime-600 hover:to-emerald-800
             transition-colors duration-300
             focus:ring-2 focus:ring-amber-500 focus:ring-offset-2
             text-white rounded-full

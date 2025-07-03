@@ -55,10 +55,10 @@ export const ChatReceitas = () => {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-amber-200 to-black/80 p-4">
+        <div className="min-h-screen bg-gradient-to-br from-amber-200  via-emerald-700/80 to-emerald-700/80 p-4">
             <div className=" container mx-auto max-w-4xl">
                 <header className="text-center mb-8">
-                    <h1 className="text-5xl font-bold bg-gradient-to-bl from-orange-400 to-amber-950 text-transparent bg-clip-text mb-2">🥘 DevChef</h1>
+                    <h1 className="text-5xl font-bold bg-gradient-to-bl from-emerald-900  to-lime-600 text-transparent bg-clip-text mb-2">🥘 DevReceita</h1>
                     <p className="text-gray-200 text-lg">Seu assistente pessoal para receitas deliciosas</p>
                 </header>
 
